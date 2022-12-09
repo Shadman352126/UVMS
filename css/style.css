@@ -1,0 +1,35 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+}
+h1, h2, h3, h4, h5, h6{
+
+}
+/*header section code start*/
+.header{
+	width: 100%;
+	border-bottom: 1px solid #000;
+	padding: 20px 0px;
+	background: #F0F8FF;
+}
+.header .navbar{
+	width: 100%;
+}
+.header .navbar img{
+	width: 100px;
+	hanging-punctuation: 100px;
+	border: 1px solid #000;
+	background: #transparent !important;
+}
+.header .navbar .nav-item{
+	margin: 10px;
+}
+.header .navbar .nav-item .nav-link{
+	font-size: 20px;
+}
+.header .navbar .form-control{
+	background: transparent;
+}
