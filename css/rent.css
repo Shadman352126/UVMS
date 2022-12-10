@@ -41,56 +41,52 @@ h1, h2, h3, h4, h5, h6{
 .header .btn a{
 	text-decoration: none;
 }
-/*details section code start*/
-.details{
+/*details section start*/
+.home{
 	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	background: #FAEBD7;
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(2, 1fr);
+}
+.text h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 20px;
+}
+.text p{
+	margin: 10px 0px 20px 20px;
+}
+.img img{
+	width: 600px;
+	height: 100%;
+}
+/*button section start*/
+.button{
+	width: 100%;
+	background: #FAEBD7;
+	text-align: center;
 	padding: 40px 0px;
-	background: #eee;
 }
-.details h2{
-	padding: 35px 0px;
-	font-size: 40px;
-	line-height: 50px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #00FFFF;
+.button .btn{
+    padding: 10px 90px;
+    background: aqua;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 1px solid aqua;
+    transition: 1s;
 }
-.details p{
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-	font-family: 'Poppins', sans-serif;
+.button .btn:hover, .button .btn:focus{
+	background: #f2622c;
 }
-.details .img{
-	padding: 40px 0px 0px 160px;
-	border-radius: 100%;
+.button .btn a{
+	text-decoration: none;
+    color: #000;
 }
-
-/*bus section code start*/
-.bus{
-	width: 100%;
-	padding: 80px 0px;
-	background: #FFF8DC;
-}
-.bus h2{
-	padding: 35px 0px;
-	font-size: 40px;
-	line-height: 50px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #00FFFF;
-}
-.bus p{
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-	font-family: 'Poppins', sans-serif;
-}
-.bus .img{
-    padding: 100px 40px 0px 60px;
-	border-radius: 100%;
-}
-/*footer section code start*/
+/*footer section start*/
 .footer{
 	width: 100%;
 	padding: 40px 0px 30px;

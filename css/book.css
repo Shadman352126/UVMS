@@ -71,26 +71,3 @@ h1, h2, h3, h4, h5, h6{
 .devision{
 	padding: 5px 0px 0px;
 }
-/*button section start*/
-.button{
-	width: 100%;
-	background: #FAEBD7;
-	text-align: center;
-	padding: 40px 0px;
-}
-.button .btn{
-    padding: 10px 90px;
-    background: aqua;
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    border: 1px solid aqua;
-    transition: 1s;
-}
-.button .btn:hover, .button .btn:focus{
-	background: #f2622c;
-}
-.button .btn a{
-	text-decoration: none;
-    color: #000;
-}

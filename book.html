@@ -4,10 +4,10 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Book | UVMS</title>
-		<!-- sginup.css linking here -->
-		<link rel="stylesheet" href="css/sginup.css">
-		<!-- style.css linking here -->
-		<link rel="stylesheet" href="css/style.css">
+		<!-- book.css linking here -->
+		<link rel="stylesheet" href="css/book.css">
+		<!-- rent.css linking here -->
+		<link rel="stylesheet" href="css/rent.css">
 		<!-- font family linking here -->
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 		<!-- bootstrap.min.css linking here -->
@@ -48,28 +48,61 @@
 		<section class="login-section">
 			<div class="login-box">
 				<div class="avater">
-					<img src="images/bus.png" alt="Log-in page" class="avater">
+					<img src="images/1b.png" alt="Log-in page" class="avater">
 				</div>
 				<h2>Fill The Form To Book</h2>
 				<form action="" class="login-form">
 					<div class="form-group">
 						<label for="">Full Name :</label>
-						<input type="text" placeholder="full Name" name="fullname" class="form-control">
+						<input type="text" placeholder="Full Name" name="fullname" class="form-control">
 					</div>
 					<div class="form-group">
-						<label for="">E-mail :</label>
-						<input type="email" placeholder="E-mail" name="email" class="form-control">
+						<label for="">Pick up Address :</label>
+						<input type="text" placeholder="Enter your Address" name="pickup" class="form-control">
+					</div>
+					<div class="devision">
+						<select name="time" id="">
+							<option value="0">Select pick Up Time</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="1">9</option>
+							<option value="2">10</option>
+							<option value="3">11</option>
+							<option value="4">12</option>
+							<option value="5">13</option>
+							<option value="6">14</option>
+							<option value="7">15</option>
+							<option value="8">16</option>
+							<option value="1">17</option>
+							<option value="2">18</option>
+							<option value="3">19</option>
+							<option value="4">20</option>
+							<option value="5">21</option>
+							<option value="6">22</option>
+							<option value="7">23</option>
+							<option value="8">00</option>
+						</select>
 					</div>
 					<div class="form-group">
-						<label for="">User Name :</label>
-						<input type="text" placeholder="User Name" name="username" class="form-control">
+						<label for="">Pick up Date :</label>
+						<input type="text" placeholder="Enter Date" name="date" class="form-control">
 					</div>
 					<div class="form-group">
-						<label for="">Password :</label>
-						<input type="password" placeholder="Password" name="password" class="form-control">
+						<label for="">Destination :</label>
+						<input type="text" placeholder="Enter your destination" name="destination" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="">Mobile Number :</label>
+						<input type="text" placeholder="Mobile Number" name="mobile" class="form-control">
 					</div>
 					<div class="button">
-						<a href="#"><button type="button" class="btn btn-primary">Register</button></a>
+						<a href="#"><button type="button" class="btn btn-primary">Submit</button></a>
 					</div>
 				</form>
 			</div>
