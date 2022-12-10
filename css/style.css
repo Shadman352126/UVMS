@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6{
 .header{
 	width: 100%;
 	background: #F0F8FF;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
 }
 .header .navbar{
 	width: 100%;
@@ -46,6 +49,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 100%;
 	padding: 40px 0px;
 	background: #eee;
+	padding-top: 200px;
 }
 .details h2{
 	padding: 35px 0px;
